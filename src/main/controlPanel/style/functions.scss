@@ -1,0 +1,12 @@
+@function invertCol($color) {
+    @if type-of($color) != "color" {
+        @warn "#{$color} n'est pas une couleur valide.";
+        @return null;
+    }
+
+    $r: 255 - red($color);
+    $g: 255 - green($color);
+    $b: 255 - blue($color);
+
+    @return rgb($r, $g, $b);
+}

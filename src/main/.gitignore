@@ -1,0 +1,6 @@
+# Style
+*.css
+!controlPanel/style/index.css
+
+# web script
+!controlPanel/scripts/*.js

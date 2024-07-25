@@ -137,3 +137,4 @@ out
 
 # node
 package-lock.json
+*.js
