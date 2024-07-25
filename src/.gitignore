@@ -1,0 +1,4 @@
+# Assets Editor
+bundles/*
+!bundles/home/
+!bundles/test/

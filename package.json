@@ -1,0 +1,27 @@
+{
+  "name": "assetseditor",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/main/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gwenitora/AssetsEditor.git"
+  },
+  "author": "Gwenitora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gwenitora/AssetsEditor/issues"
+  },
+  "homepage": "https://github.com/Gwenitora/AssetsEditor#readme",
+  "dependencies": {
+    "@gscript/grequest": "^1.1.91",
+    "@gscript/gtools": "^1.2.19"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
+  }
+}
